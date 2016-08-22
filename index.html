@@ -10,7 +10,12 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron">
       <h1>Ping Pong</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-6" id="instructions">
+          <div class="well" id="well-form1">
       <h3>Here's how to play!</h3>
       <h5>The number you enter below will be counted up to by 1, with the following exceptions:</h5>
         <ol>
@@ -18,7 +23,13 @@
           <li>Any number divisible by 5 will become "Pong"</li>
           <li>Any number divisible by 15 will become "PingPong"</li>
         </ol>
+      </div>
+      </div>
+      </div>
       <div id="input">
+        <div class="row">
+          <div class="col-sm-6" id="game">
+            <div class="well" id="well-form2">
       <form>
         <div class="form-group">
           <label for="number">Enter your number here:</label>
@@ -26,12 +37,11 @@
         </div>
         <button type="submit" class="btn btn-danger">Start Pinging and Ponging</button>
       </form>
-      </div>
       <div id="result">
-        <ul id="display-result">
-
-        </ul>
       </div>
+      </div>
+      </div>
+    </div>
     </div>
   </body>
 </html>

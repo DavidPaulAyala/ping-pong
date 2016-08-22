@@ -1,0 +1,33 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/ping.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+body {
+  background-image: url("../img/balls.jpeg");
+  background-size: cover;
+}
+
+.well {
+  margin-top: 25px;
+  padding: 25px;
+  background-image: url("../img/paddle.jpg");
+  background-size: cover;
+  font-family: helvetica;
+  color: black;
+  text-shadow:
+  -1px -1px 0 #FFF,
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+}
+
+#well-form2 {
+  background-image: url("../img/balls.jpg");
+  background-size: cover;
+}
