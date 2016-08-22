@@ -1,5 +1,5 @@
 .jumbotron {
-    margin-bottom: 0px;
+    margin-top: 25px;
     background-image: url(../img/ping.jpg);
     background-position: 0% 25%;
     background-size: cover;
@@ -14,7 +14,6 @@ body {
 }
 
 .well {
-  margin-top: 25px;
   padding: 25px;
   font-family: helvetica;
   color: black;

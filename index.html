@@ -17,7 +17,7 @@
         <div class="col-sm-6" id="instructions">
           <div class="well" id="well-form1">
             <h3>Here's how to play!</h3>
-            <h5>The number you enter below will be counted up to by 1, with the following exceptions:</h5>
+            <h5>Enter a number and it will be counted up to by 1, with the following exceptions:</h5>
               <ol>
                 <li>Any number divisible by 3 will become "Ping"</li>
                 <li>Any number divisible by 5 will become "Pong"</li>
@@ -35,6 +35,7 @@
                 <input id="number" type="text">
               </div>
               <button type="submit" class="btn btn-danger">Start Pinging and Ponging</button>
+              <button type="reset" class="btn btn-success" value="Reset" onclick="window.location.reload()">Reset</button>
             </form>
             <div id="result">
             </div>
