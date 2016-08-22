@@ -16,8 +16,6 @@ body {
 .well {
   margin-top: 25px;
   padding: 25px;
-  background-image: url("../img/paddle.jpg");
-  background-size: cover;
   font-family: helvetica;
   color: black;
   text-shadow:
@@ -25,6 +23,10 @@ body {
   1px -1px 0 #FFF,
   -1px 1px 0 #FFF,
   1px 1px 0 #FFF;
+}
+#well-form1 {
+  background-image: url("../img/paddle.jpg");
+  background-size: cover;
 }
 
 #well-form2 {
