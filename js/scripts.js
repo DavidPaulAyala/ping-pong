@@ -15,7 +15,6 @@ var pong = function(input) {
 };
 
 
-
 $(document).ready(function() {
   $("#input form").submit(function(event) {
     event.preventDefault();
